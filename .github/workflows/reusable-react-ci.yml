@@ -3,7 +3,8 @@ name: Reusable React CI
 on:
   workflow_call:
     inputs:
-      example-input:
+      node-version:
+        description: "Node version"
         required: true
         type: string
     secrets:
