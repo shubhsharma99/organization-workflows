@@ -7,7 +7,10 @@ on:
         required: true
         type: string
     secrets:
-      example-secret:
+    
+      aws-access-key-id: 
+        required: true
+      aws-secret-access-key: 
         required: true
 
 jobs:
